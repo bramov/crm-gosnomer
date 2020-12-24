@@ -1,0 +1,31 @@
+{
+  "name": "gosnomer63-crm",
+  "version": "1.0.0",
+  "description": "just a simple crm that im doing at gosnomer63",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bramov"
+  },
+  "keywords": [
+    "mern",
+    "crm"
+  ],
+  "author": "Aleksei Abramov <alexey.abramov96@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
